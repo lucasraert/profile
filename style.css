@@ -21,9 +21,14 @@ h1 {
   color: rgba(0,0,0,.8)
 }
 
+h3 {
+  font-size: 16px;
+}
+
 a {
   text-decoration: none;
-  color: rgba(0,0,0,.44)
+  color: rgba(0,0,0,.44);
+  font-size: 12px;
 }
 
 a:hover {
@@ -42,6 +47,18 @@ tr:last-child {
   border-bottom: none;
 }
 /* Class and IDs */
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  width: 105px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#page-content {
+  margin-left: 105px;
+}
 
 .container {
   width: 700px;   /* This sets the width */
@@ -77,13 +94,32 @@ tr:last-child {
   border-radius: 50%;
 }
 
+.list-remove-bullets {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.top-bottom-padding li {
+  padding: 20px 0 20px 0;
+}
+
+.sidebar-elements a {
+  color: rgb(156, 164, 171);
+  font-size: 25px;
+  padding: 120px, 0, 20px, 0;
+}
+
+.fa {
+  font-size: 25px;
+}
+
 .list-inline {
   list-style-type: none;
   padding: 0px;
 }
 
 .list-inline > li {
-  display: inline;
+  display: inline-block;
   padding: 10px;
 }
 

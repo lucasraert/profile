@@ -1,7 +1,7 @@
 /* Font and colors */
 
 body {
-  background-color: rgba(0,0,0,.10);
+  background: linear-gradient(rgba(0,0,0, 0.1), rgba(0,0,50, 0.2) 60%);
   font-family: 'Open Sans', sans-serif;
   color: rdb(10, 10, 10);
   font-weight: 400;
